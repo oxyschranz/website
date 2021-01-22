@@ -140,16 +140,6 @@ p {
    
 }
 
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    color: #ecddd9;
-    font-size: 50px !important;
-    text-align: center;
-    padding-top: 75px;
-    
-    
-}
 
 
 h3 {
@@ -208,6 +198,7 @@ h2{
     padding-bottom: 100px;
     font-size: 70px !important;
     padding-bottom: 0px;
+    font-family: 'Playfair Display', serif !important;
 
 }
 
