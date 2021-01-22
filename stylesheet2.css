@@ -146,7 +146,7 @@ h3 {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif !important;
     text-transform: uppercase;
     color: #2e3541;
 
