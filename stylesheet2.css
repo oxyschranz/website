@@ -105,15 +105,6 @@ nav {
         transform: translateX(0px);
 
     }
-}
-
-h4 {
-    font-family: 'Playfair Display', serif;
-    color: #2e3541;
-    font-size: 50px !important;
-    line-height: 50px !important;
-
-}
 
 .banner-container {
     background-color: #ecddd9 !important;
@@ -152,6 +143,16 @@ h3 {
     color: #2e3541;
 
     
+}
+
+h2{
+    color: #bc8e9f !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 70px !important;
+    padding-bottom: 0px;
+    font-family: 'Playfair Display', serif !important;
+
 }
 
 .oxy {
@@ -193,16 +194,6 @@ a:hover {
 
 .latest{
     padding-bottom: 0px;
-}
-
-h2{
-    color: #bc8e9f;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    font-size: 70px !important;
-    padding-bottom: 0px;
-    font-family: 'Playfair Display', serif !important;
-
 }
 
 
