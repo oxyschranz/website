@@ -151,6 +151,10 @@ h1 {
     
 }
 
+#carouselExampleControls{
+    background-color: #2e3541 !important;
+}
+
 
 h3 {
     padding-top: 50px;

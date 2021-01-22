@@ -105,6 +105,12 @@ nav {
         transform: translateX(0px);
 
     }
+}
+
+#carouselExampleControls{
+    background-color: #2e3541 !important;
+}
+
 
 .banner-container {
     background-color: #ecddd9 !important;
@@ -113,6 +119,7 @@ nav {
     padding-bottom: 173px;
 
 }
+
 p {
     font-size: 25px !important;
     color: #2f3442;
@@ -124,6 +131,16 @@ p {
     padding-left: 0px;
 }
 
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #ecddd9;
+    font-size: 50px !important;
+    text-align: center;
+    padding-top: 75px;
+    
+    
+}
 
 
 .carousel-item {
@@ -137,8 +154,8 @@ p {
 h3 {
     padding-top: 50px;
     padding-bottom: 50px;
-    text-align: center;
-    font-family: 'Playfair Display', serif !important;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #2e3541;
 
