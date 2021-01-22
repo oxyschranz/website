@@ -23,6 +23,29 @@
   
     <body>
 
+        <button  onclick="topFunction()" id="myBtn" title="Go to top">top</button>
+      <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
         <!--NAVBAR-->
             <nav>
                 <div class="logo">
@@ -75,6 +98,9 @@
         <h1 class="cli d-flex justify-content-start">About Me</h1>
         <div class="d-flex">
         <p id="clients">
+            I completed my Diploma in Design Foundation Studies and I am currently in my third and final year of my Bachelor of Fine Arts (Honours) in Digital Arts.
+            <br>
+            <br> 
             My work experience is varied. I started my carrier as a Junior Designer with a design firm and then went on to manage my own Graphic Design and Marketing department at a multi-brand fashion company.
             I also work as a freelancer and have worked on branding, web design, social media marketing and publication design. 
         </p>
@@ -84,28 +110,16 @@
     <!--FOOTER-->
     <div class="footer">
     <div class="centerdiv">
-        <a class="social" href="https://www.facebook.com/oxy.schranz1/">
+        <a class="social" href="https://www.facebook.com/oxy.schranz1/" target="_blank">
         <i class="fab fa-2x fa-facebook-f"></i> 
         </a>
-        <a class="social" href="https://www.instagram.com/oxyschranz/">
+        <a class="social" href="https://www.instagram.com/oxy_schranz_designs/" target="_blank">
         <i class="fab fa-2x fa-instagram"></i>
     </span>
     </a>
     </div>
         <span>&#169;oxyschranz</span>
     </div>
-
-    
-    
-    <!--div class="wrapper">
-        <h2>Oxy Schranz</h2>
-        <div class="media"></div>
-        <ul>
-    <li><i class="fab fa-facebook-f"></i></li>
-    <li><i class="fab fa-instagram"></i></li>
-    </ul>    
-    </div>
-    </div-->
 
 
 
